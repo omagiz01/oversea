@@ -43,6 +43,7 @@ position_check=find_index(word,index)
 # word.close
 print(position_check) #[7782, 7877, 1, 1490, 3316, 5334, 6959, 11478, 13879, 16178]
 result=cut_sentence(position_check,word)
-#-----------------------print senence -> result[0],result[1]
+#-----------------------print senence -> result[0],result[1],...
 for i in result: 
 	print(i,end='\n\n')
+#comment
